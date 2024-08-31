@@ -37,6 +37,10 @@
 - **déploiement sur heroku**
   1. si vous ne disposez pas de compte **heroku** cliquez [**ici**](https://id.heroku.com/login) pour vous en procurer un .
   2.  cliquez [**ici**](https://dashboard.heroku.com/new?template=https://github.com/djalega8000/Zokou-2.0) pour deployer le bot sur **heroku**
+- **deploiement sur Koyeb**
+  1. Si vous ne disposez pas de compte **Koyeb** cliquez [**ici**](https://app.koyeb.com/auth/signup) pour vous en procurer un .
+  2. Cliquez [![Deploy to Koyeb](https://www.koyeb.com/deploy-button)](https://app.koyeb.com/deploy?type=git&repository=https://github.com/Sekiryuutei-MD/Zokou-2.00&branch=main&env[NOM_OWNER]=your_name_or_your_pseudo&env[NODE_ENV]=production&env[PREFIXE]=.&env[SESSION_ID]=put_your_session_id&env[MODE_PUBLIC]=non&env[APILOHUMAIN]=your_api_key&env[LECTURE_AUTO_STATUS]=non&env[TELECHARGER_AUTO_STATUS]=non&env[NOM_BOT]=Zokou-2.0&env[LIENS_MENU]=https://static.animecorner.me/2023/08/op2.jpg&env[NUMERO_OWNER]=62xxxxxxxxxxxx&env[ETAT]=1&env[DATABASE_URL]=Go_on_render_and_create_your_database&env[WARN_COUNT]=3)
+)
 
 ## Contributions
 
