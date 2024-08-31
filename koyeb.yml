@@ -2,7 +2,7 @@ name: Zokou-2.0
 services:
   - name: koyeb
     type: app
-    port: 3000
+    port: 8000
     build:
       type: docker
       dockerfile_path: ./Dockerfile
@@ -10,7 +10,7 @@ services:
     - package.json
     - package-lock.json
     - index.js
-    - .env
+    - set.env
     routes:
       - path: /
 regions:
