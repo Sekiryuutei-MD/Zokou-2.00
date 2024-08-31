@@ -1,0 +1,19 @@
+name: Zokou-2.0
+services:
+  - name: koyeb
+    type: app
+    port: 3000
+    build:
+      type: docker
+      dockerfile_path: ./Dockerfile
+      files:
+    - package.json
+    - package-lock.json
+    - index.js
+    - .env
+    routes:
+      - path: /
+regions:
+  - fra # Frankfurt (choose your preferred region)
+  
+plan: web # Ensuring it's a web service, not a worker
